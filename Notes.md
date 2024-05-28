@@ -45,13 +45,13 @@ docker exec -it container_id bash
 docker images or docker image ls
 ```
 
-# Port Mapping
+## Port Mapping
 Expose the container’s port
 ```bash
 docker run -it -p My_Port_Number : Container’s_Port_Number Image_Name
 ```
 
-# Environment Variables
+## Environment Variables
 We can pass environment variable in our docker container use for passing extra data
 ```bash
 docker run -it -p My_Port_Number : Container’s_Port_Number -e key=value -e key=value Image_Name
